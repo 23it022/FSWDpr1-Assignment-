@@ -1,0 +1,68 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark gray text */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header Styles */
+h1 {
+    color: #4CAF50; /* Green color for main header */
+    text-align: center;
+}
+
+/* Add Product Section Styles */
+h2 {
+    color: #2196F3; /* Blue color for section headers */
+}
+
+div {
+    background-color: #ffffff; /* White background for sections */
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Input Fields Styles */
+input[type="text"],
+input[type="number"] {
+    width: calc(33% - 10px); /* Responsive width for inputs */
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px;
+}
+
+/* Button Styles */
+button {
+    background-color: #FF5722; /* Orange color for button */
+    color: white; /* White text color */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #E64A19; /* Darker orange on hover */
+}
+
+/* Cart Summary Styles */
+#cart {
+    background-color: #e3f2fd; /* Light blue background for cart */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#cartList {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+}
+
+#totalCost {
+    font-weight: bold; /* Bold text for total cost */
+    color: #FF5722; /* Same orange color for total cost */
+}

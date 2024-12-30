@@ -1,0 +1,54 @@
+/* General Styles */
+body {
+    background-color: #87CEEB; /* Light Sky Blue */
+    color: #2F4F4F; /* Dark Slate Gray */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header Styles */
+h1 {
+    color: #FFD700; /* Sunshine Yellow */
+    text-align: center;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #2F4F4F; /* Dark Slate Gray */
+}
+
+/* Input Field Styles */
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #D3D3D3; /* Light border */
+    border-radius: 5px;
+    width: 200px;
+    font-size: 16px;
+}
+
+/* Button Styles */
+button {
+    background-color: #FF7F50; /* Coral */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #FF6347; /* Darker Coral */
+}
+
+/* Weather Summary Styles */
+#weatherSummary {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: white; /* White background for summary */
+    border: 1px solid #D3D3D3; /* Light border */
+    border-radius: 5px;
+}

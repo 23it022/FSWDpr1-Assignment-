@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Task Manager</h1>
+
+    <form id="taskForm">
+        <input type="text" id="taskTitle" placeholder="Task Title" required>
+        <select id="taskStatus">
+            <option value="Pending">Pending</option>
+            <option value="Completed">Completed</option>
+        </select>
+        <input type="number" id="taskPriority" placeholder="Priority (1-5)" min="1" max="5" required>
+        <button type="submit">Add Task</button>
+    </form>
+
+    <button id="showPending">Show Pending Tasks</button>
+    <button id="showCompleted">Show Completed Tasks</button>
+    <button id="showHighPriority">Show High Priority Task</button>
+
+    <div class="task-list" id="taskList"></div>
+
+  
+    <script src="script.js"></script>
+
+</body>
+</html>
